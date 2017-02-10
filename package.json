@@ -1,12 +1,16 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "name": "my-portfolio",
+  "title": "my-portfolio",
+  "version": "0.0.1",
+  "homepage": "http://swaroopkpydisetty.com",
+  "author": "Swaroop Kumar Pydisetty",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/pswaroopk/my-portfolio/LICENSE"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node server.js"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -22,6 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/pswaroopk/my-portfolio.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.9.0",
+    "body-parser": "^1.16.0",
+    "request": "^2.79.0",
+    "express": "^4.14.1"
   }
 }
