@@ -1,12 +1,12 @@
 {
-  "name": "my-portfolio",
-  "title": "my-portfolio",
+  "name": "mywebsite",
+  "title": "mywebsite",
   "version": "0.0.1",
   "homepage": "http://swaroopkpydisetty.com",
   "author": "Swaroop Kumar Pydisetty",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/pswaroopk/my-portfolio/LICENSE"
+    "url": "https://github.com/pswaroopk/mywebsite/LICENSE"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pswaroopk/my-portfolio.git"
+    "url": "https://github.com/pswaroopk/mywebsite.git"
   },
   "dependencies": {
     "aws-sdk": "^2.9.0",
