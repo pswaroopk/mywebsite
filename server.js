@@ -64,9 +64,10 @@ app.post('/sendMail', function (req, res) {
       }
     }
   }, function(err, data) {
-    if(err) {
-      return res.status(500).send(err);
-    }
+	//console.log(err, data);
+    //if(err) {
+      //return res.status(500).send(err);
+    //}
     // console.log('Email sent:');
     // console.log(data);
     return res.send('Email sent')
